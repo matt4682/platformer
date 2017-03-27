@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Tutorial 1",
+    "time": 10,
+    "gem": false
+  },
+  {
+    "name": "Tutorial 2",
+    "time": 10,
+    "gem": false
+  },
+  {
+    "name": "Tutorial 3",
+    "time": 10,
+    "gem": false
+  },
+  {
+    "name": "Tutorial 4",
+    "time": 10,
+    "gem": false
+  },
+  {
+    "name": "Tutorial 5",
+    "time": 10,
+    "gem": true
+  }
+]

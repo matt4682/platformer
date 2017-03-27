@@ -1,0 +1,8 @@
+.vs/
+Debug/
+Release/
+packages/
+Platformer/Debug
+Platformer/Release
+Platformer.zip
+Platformer.VC.db

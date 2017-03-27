@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Level1",
+    "time": 12.5,
+    "gem": true
+  },
+  {
+    "name": "Level2",
+    "time": 9.9,
+    "gem": true
+  },
+  {
+    "name": "Level3",
+    "time": 14.5,
+    "gem": true
+  },
+  {
+    "name": "Level4",
+    "time": 17,
+    "gem": true
+  },
+  {
+    "name": "Level5",
+    "time": 16,
+    "gem": true
+  },
+  {
+    "name": "Level6",
+    "time": 12,
+    "gem": true
+  }
+]

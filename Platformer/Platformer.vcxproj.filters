@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{94f3da20-fcb3-4453-a7a0-77f6e31c6894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game\tilemap">
+      <UniqueIdentifier>{21cc6a09-3396-48f0-b8e8-43ee42039cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{fe7d885f-a771-47de-8bd2-ac701840ba19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game\tilemap">
+      <UniqueIdentifier>{6113f7f4-92f3-407b-b69b-58b68defa548}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui">
+      <UniqueIdentifier>{b19fce79-4100-42ff-8181-1061342d421f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene">
+      <UniqueIdentifier>{88a6c816-e0b0-4547-9836-21cc3c04d2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene\factories">
+      <UniqueIdentifier>{9fa8ae9f-6176-4417-a215-c09f591367fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene\nodes">
+      <UniqueIdentifier>{f392ba47-0e82-489e-8312-e0305174d95e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene\nodes\entities">
+      <UniqueIdentifier>{9e014603-94b2-4ff1-b1f5-5f28bb8314b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui\components">
+      <UniqueIdentifier>{a42db28b-7086-49bd-8bac-2eb0a15c4926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui\states">
+      <UniqueIdentifier>{270f9a37-e3bd-482c-86c6-b8a027854a94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui\components\buttons">
+      <UniqueIdentifier>{5f94cd29-ad6e-4379-9bca-bb172fad73fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui\components\containers">
+      <UniqueIdentifier>{be373434-0b9c-45e8-95a3-8e9972f85f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ui\components\options">
+      <UniqueIdentifier>{03c1dfed-a732-48e7-9f7e-e9cb426293ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui">
+      <UniqueIdentifier>{09dce403-ed51-4790-a764-0b5077ff73b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene">
+      <UniqueIdentifier>{a8f13305-72c8-4349-992d-723d1fa1f6c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\factories">
+      <UniqueIdentifier>{86637290-4c16-4e70-bd59-607fc7ae2c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\nodes">
+      <UniqueIdentifier>{d8d1646d-b8fe-42c6-9639-62cf963433e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene\nodes\entities">
+      <UniqueIdentifier>{9060505e-4ecb-49e2-b8fd-91c6114a1044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\components">
+      <UniqueIdentifier>{ebfe504b-7f9f-44a1-82b3-ad6c9dd26485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\states">
+      <UniqueIdentifier>{eb5fda06-a086-4fbb-9d18-2e0d5a3671cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\components\buttons">
+      <UniqueIdentifier>{9d44466d-e860-492c-b3f8-eac500f6f2ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\components\containers">
+      <UniqueIdentifier>{2fe80e7a-1795-4a60-b811-f9f6acd1fc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ui\components\options">
+      <UniqueIdentifier>{bcec2cbe-056c-4a22-9543-0b818568a14b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\game\tilemap\object.cpp">
+      <Filter>Source Files\game\tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\tilemap\object_group.cpp">
+      <Filter>Source Files\game\tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\tilemap\tile.cpp">
+      <Filter>Source Files\game\tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\tilemap\tile_layer.cpp">
+      <Filter>Source Files\game\tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\tilemap\tile_loader.cpp">
+      <Filter>Source Files\game\tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\tilemap\tileset.cpp">
+      <Filter>Source Files\game\tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\collision_handler.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\level_manager.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\map_data.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\music_player.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\player.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\resource_manager.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\sound_player.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\state_stack.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\world.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\factories\game_object_factory.cpp">
+      <Filter>Source Files\scene\factories</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\factories\entity_factory.cpp">
+      <Filter>Source Files\scene\factories</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\entities\moving_platform.cpp">
+      <Filter>Source Files\scene\nodes\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\entities\main_character.cpp">
+      <Filter>Source Files\scene\nodes\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\entities\jumping_block.cpp">
+      <Filter>Source Files\scene\nodes\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\entities\jumper.cpp">
+      <Filter>Source Files\scene\nodes\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\entities\big_jumper.cpp">
+      <Filter>Source Files\scene\nodes\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\tilemap_node.cpp">
+      <Filter>Source Files\scene\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\text_node.cpp">
+      <Filter>Source Files\scene\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\sprite_node.cpp">
+      <Filter>Source Files\scene\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\sound_node.cpp">
+      <Filter>Source Files\scene\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\game_object.cpp">
+      <Filter>Source Files\scene\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\nodes\entity.cpp">
+      <Filter>Source Files\scene\nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\scene_node.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\command.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\animation.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\animated_sprite.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\buttons\container_button.cpp">
+      <Filter>Source Files\ui\components\buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\containers\panel.cpp">
+      <Filter>Source Files\ui\components\containers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\options\vector_option.cpp">
+      <Filter>Source Files\ui\components\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\options\integer_option.cpp">
+      <Filter>Source Files\ui\components\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\options\boolean_option.cpp">
+      <Filter>Source Files\ui\components\options</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\option_container.cpp">
+      <Filter>Source Files\ui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\option.cpp">
+      <Filter>Source Files\ui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\number.cpp">
+      <Filter>Source Files\ui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\label.cpp">
+      <Filter>Source Files\ui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\image.cpp">
+      <Filter>Source Files\ui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\container.cpp">
+      <Filter>Source Files\ui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\components\button.cpp">
+      <Filter>Source Files\ui\components</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\states\world_select_state.cpp">
+      <Filter>Source Files\ui\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\states\play_state.cpp">
+      <Filter>Source Files\ui\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\states\pause_state.cpp">
+      <Filter>Source Files\ui\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\states\option_state.cpp">
+      <Filter>Source Files\ui\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\states\menu_state.cpp">
+      <Filter>Source Files\ui\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\states\level_select_state.cpp">
+      <Filter>Source Files\ui\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\states\level_loading_state.cpp">
+      <Filter>Source Files\ui\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\states\level_completion_state.cpp">
+      <Filter>Source Files\ui\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\states\help_state.cpp">
+      <Filter>Source Files\ui\states</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\component.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui\state.cpp">
+      <Filter>Source Files\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\save_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\tilemap\box2d_loader.cpp">
+      <Filter>Source Files\game\tilemap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\game\tilemap\object.h">
+      <Filter>Header Files\game\tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\tilemap\object_group.h">
+      <Filter>Header Files\game\tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\tilemap\tile.h">
+      <Filter>Header Files\game\tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\tilemap\tile_layer.h">
+      <Filter>Header Files\game\tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\tilemap\tile_loader.h">
+      <Filter>Header Files\game\tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\tilemap\tileset.h">
+      <Filter>Header Files\game\tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\collision_handler.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\level_manager.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\map_data.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\music_player.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\player.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\resource_manager.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\sound_player.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\state_stack.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\world.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\factories\game_object_factory.h">
+      <Filter>Header Files\scene\factories</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\factories\entity_factory.h">
+      <Filter>Header Files\scene\factories</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\entities\moving_platform.h">
+      <Filter>Header Files\scene\nodes\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\entities\main_character.h">
+      <Filter>Header Files\scene\nodes\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\entities\jumping_block.h">
+      <Filter>Header Files\scene\nodes\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\entities\jumper.h">
+      <Filter>Header Files\scene\nodes\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\entities\big_jumper.h">
+      <Filter>Header Files\scene\nodes\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\tilemap_node.h">
+      <Filter>Header Files\scene\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\text_node.h">
+      <Filter>Header Files\scene\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\sprite_node.h">
+      <Filter>Header Files\scene\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\sound_node.h">
+      <Filter>Header Files\scene\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\game_object.h">
+      <Filter>Header Files\scene\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\nodes\entity.h">
+      <Filter>Header Files\scene\nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\scene_node.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\command.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\animation.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\animated_sprite.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\buttons\container_button.h">
+      <Filter>Header Files\ui\components\buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\containers\panel.h">
+      <Filter>Header Files\ui\components\containers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\options\vector_option.h">
+      <Filter>Header Files\ui\components\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\options\integer_option.h">
+      <Filter>Header Files\ui\components\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\options\boolean_option.h">
+      <Filter>Header Files\ui\components\options</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\option_container.h">
+      <Filter>Header Files\ui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\option.h">
+      <Filter>Header Files\ui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\number.h">
+      <Filter>Header Files\ui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\label.h">
+      <Filter>Header Files\ui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\image.h">
+      <Filter>Header Files\ui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\container.h">
+      <Filter>Header Files\ui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\components\button.h">
+      <Filter>Header Files\ui\components</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\states\world_select_state.h">
+      <Filter>Header Files\ui\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\states\play_state.h">
+      <Filter>Header Files\ui\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\states\pause_state.h">
+      <Filter>Header Files\ui\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\states\option_state.h">
+      <Filter>Header Files\ui\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\states\menu_state.h">
+      <Filter>Header Files\ui\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\states\level_select_state.h">
+      <Filter>Header Files\ui\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\states\level_loading_state.h">
+      <Filter>Header Files\ui\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\states\level_completion_state.h">
+      <Filter>Header Files\ui\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\states\help_state.h">
+      <Filter>Header Files\ui\states</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\component.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui\state.h">
+      <Filter>Header Files\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\save_manager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\tilemap\box2d_loader.h">
+      <Filter>Header Files\game\tilemap</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
